@@ -1,0 +1,71 @@
+example-container {
+  width: 400px;
+  height: 200px;
+  margin: 12px;
+  border: 1px solid #555;
+}
+
+.mat-raised-button {
+  float: left;
+}
+.header-top{
+  /* background-color: #00304C;
+  background-image: linear-gradient(-90deg, rgb(20, 99, 144), #00304C); */
+  color: rgb(243, 57, 57);
+  height: 65px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255,255,255);
+  font-size: 18px;
+}
+.nav-start-elements li{
+  margin: 0px 13px;
+  font-size: 18px;
+}
+
+
+.nav-signUp{
+
+}
+.nav-signIn{
+  margin: 10px 0px 0px 10px;
+  cursor: pointer;
+}
+.nav-header-elements{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.nav-header-elements a{
+  text-decoration: none;
+  color: rgb(243, 57, 57);
+  font-size: 18px;
+}
+.nav-header-elements li{
+  display: inline-flex;
+  float: right;
+  padding-right: 15px;
+  align-self: flex-end;
+}
+
+.img-logo{
+  float: left;
+  width: 70px;
+  margin: 3px;
+}
+.logo-head{
+  float: left;
+  font-size: 2.3rem;
+  margin: 10px;
+}
+
+/* .under-construction{
+  height: 300px;
+
+} */
+
+

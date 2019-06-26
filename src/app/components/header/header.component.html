@@ -1,0 +1,21 @@
+
+<!-- <mat-drawer-container class="example-container" > -->
+<div class="container-fluid fixed-top ">
+    <div class="row header-top">
+      <div class="col-md-4 ">
+         <button class="hamburger" mat-raised-button (click)="drawer.toggle()" >X</button>
+         <a class="profile active" fragment=true><img class="img-logo" src="assets/images/pc-logo.png" alt="logo"></a>
+      </div>
+      <div class="col-md-2 offset-md-6">
+         <ul  class="nav-header-elements">
+          <li class="nav-signIn"  (click)="openLoginDialog()"> <img src="assets/images/pc-logo.png" /> </li>
+          <li ><a class="nav-signIn" (click)="openDialog()">Welcome Vijay</a></li>
+          <li class="nav-signIn" (click)="openLoginDialog()"> Logout </li>
+        </ul>
+       </div>
+    </div>
+  </div>
+ <mat-drawer #drawer> LeftNav </mat-drawer>
+
+<!-- </mat-drawer-container> -->
+
